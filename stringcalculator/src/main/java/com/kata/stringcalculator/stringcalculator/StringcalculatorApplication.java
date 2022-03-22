@@ -12,6 +12,7 @@ public class StringcalculatorApplication {
 		System.out.println("example 3 " + StringCalculator.Add("1,2"));
 		System.out.println("example 3 " + StringCalculator.Add("1,2,3"));
 		System.out.println("example 4 " + StringCalculator.Add("1\n2,3"));
+		System.out.println("example 5 " + StringCalculator.Add("//f\n1f2"));
 	}
 
 }
