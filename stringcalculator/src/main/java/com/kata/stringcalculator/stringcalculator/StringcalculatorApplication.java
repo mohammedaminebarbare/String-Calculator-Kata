@@ -1,13 +1,15 @@
 package com.kata.stringcalculator.stringcalculator;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.kata.stringcalculator.stringcalculator.calculator.StringCalculator;
 
-@SpringBootApplication
 public class StringcalculatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StringcalculatorApplication.class, args);
+		
+		System.out.println("example 0 " + StringCalculator.Add(null));
+		System.out.println("example 1 " + StringCalculator.Add(""));
+		System.out.println("example 2 " + StringCalculator.Add("1"));
+		System.out.println("example 3 " + StringCalculator.Add("1,2"));
 	}
 
 }
