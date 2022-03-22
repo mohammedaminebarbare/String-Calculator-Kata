@@ -10,6 +10,7 @@ public class StringcalculatorApplication {
 		System.out.println("example 1 " + StringCalculator.Add(""));
 		System.out.println("example 2 " + StringCalculator.Add("1"));
 		System.out.println("example 3 " + StringCalculator.Add("1,2"));
+		System.out.println("example 3 " + StringCalculator.Add("1,2,3"));
 	}
 
 }
